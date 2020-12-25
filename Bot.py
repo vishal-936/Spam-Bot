@@ -7,8 +7,7 @@ NumberOfTimes=100
 
 for _ in range(NumberOfTimes):
     pyautogui.typewrite(random.choice(spam_text))
-    pyautogui.press('left')
-    # pyautogui.press('enter')
+    pyautogui.press('enter')
     time.sleep(0.1)
     
     
